@@ -10,6 +10,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <nav className={styles.container}>
       <Link to="/" className={styles.navText}>Home </Link>
+      <Link to="/aboutMe" className={styles.navText}>About Me</Link>
       <Link to="/first" className={styles.navText}>My First Component </Link>
     </nav>
   )

@@ -11,6 +11,7 @@ import {
 import MyFirstComponent from './components/myFirstComponent';
 import SomeExampleComponent from './components/example/someExampleComponent';
 import Navbar from './components/navbar/navbar';
+import AboutMe from './components/aboutMe/aboutMe';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,10 +20,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
+      
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='/example' element={<SomeExampleComponent />} />
         <Route path='/first' element={<MyFirstComponent />} />
+        <Route path='/aboutMe' element={<AboutMe />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
