@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     <nav className={styles.container}>
       <Link to="/" className={styles.navText}>Home </Link>
       <Link to="/aboutMe" className={styles.navText}>About Me</Link>
-      <Link to="/first" className={styles.navText}>My First Component </Link>
+      <Link to="/contacts" className={styles.navText}>Contacts</Link>
     </nav>
   )
 }
