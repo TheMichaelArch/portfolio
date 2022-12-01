@@ -1,0 +1,22 @@
+.container {
+    background-color: darkred;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: left;
+    border-radius: 25px;
+    position: sticky;
+    top: 0;
+    
+}
+.navText {
+    margin: left;
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    flex-direction: column;
+    
+}
