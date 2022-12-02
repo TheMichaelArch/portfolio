@@ -8,9 +8,9 @@ type ContactsProps = {
 const Contacts: React.FC<ContactsProps> = () => {
   return (
     <div className={styles.container}>
-      Contacts
+      <h1>Contacts</h1>
       <a href="https://www.linkedin.com/in/markus-mikael-maja/"> LinkedIn</a>
-      Discord
+      <a> Discord: [Markus Maja#3230] </a>
 
     </div>
   )
