@@ -11,6 +11,7 @@ import {
 import SomeExampleComponent from './components/example/someExampleComponent';
 import Navbar from './components/navbar/navbar';
 import AboutMe from './components/aboutMe/aboutMe';
+import Contacts from './components/contacts/contacts';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -24,6 +25,7 @@ root.render(
         <Route path='/' element={<App />}></Route>
         <Route path='/example' element={<SomeExampleComponent />} />
         <Route path='/aboutMe' element={<AboutMe />} />
+        <Route path='/contacts' element={<Contacts />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
