@@ -1,3 +1,21 @@
 .container {
     font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: fixed;
+    align-self: center;
+
+    h1 {
+        font-size: 32px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+
+    }
+
+    a {
+        font-size: 20px;
+        
+    }
 }

@@ -8,7 +8,8 @@ type AboutMeProps = {
 const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <div className={styles.container}>
-      asdasd
+      <h1>About Me</h1>
+      <a>asdasd</a>
     </div>
   )
 }
