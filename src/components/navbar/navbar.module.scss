@@ -32,8 +32,8 @@
     }
 
     a:hover {
-        background-color: cyan;
-        box-shadow: 5px 5px 10px rgba($color: #ffffff, $alpha: 0.3);
+        background-color: rgba(0, 255, 255, 0.76);
+        box-shadow: 5px 5px 15px rgba($color: #ffffff, $alpha: 0.6);
         transform: translateY(2px);
     }
 }
