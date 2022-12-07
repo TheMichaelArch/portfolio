@@ -9,7 +9,7 @@ const AboutMe: React.FC<AboutMeProps> = () => {
   return (
     <div className={styles.container}>
       <h1>About Me</h1>
-      <a>asdasd</a>
+      <p>asdasd</p>
     </div>
   )
 }

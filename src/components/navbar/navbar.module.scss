@@ -1,24 +1,32 @@
 .container {
     position: fixed;
-    top: 10px;
-    right: 15px;
+    top: 0px;
+    // right: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 
-
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
+    width: calc(100vw - 5px * 2);
+    height: 50px;
+    // padding: 5px;
     
     background-color: darkred;
     border: 5px black solid;
-    border-radius: 20px;
-
+    // border-radius: 20px;
      a {
+        border: 2px black solid;
+        border-radius: 15px;
+
         text-align: center;
         color: white;
-        font-size: large;
+        text-shadow: 2px 2px darkblue;
+        font-size: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: bolder;
+        margin: 6px;
+        padding: 6px;
+        white-space: nowrap;
+        background-color: gray;
     }
 }
