@@ -16,7 +16,7 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: bolder;
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
 
     }
 
@@ -25,4 +25,17 @@
         margin-top: 5px;
         
     }
+}
+.container2 {
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: fixed;
+    align-self: center;
+    background-color: rgb(200, 200, 200);
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px black;
 }

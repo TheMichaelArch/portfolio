@@ -1,6 +1,6 @@
 // App.tsx
 import React from 'react'
-import SomeExampleComponent from './components/example/someExampleComponent'
+import SomeExampleComponent from './components/home/homePage'
 import ClickCount from './components/clicker/clickCount';
 import MyButton from './components/MyButton';
 
