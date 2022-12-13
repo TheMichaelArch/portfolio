@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './components/home/homePage';
+import HomeLinks from './components/home/homePageLinks'
 import Navbar from './components/navbar/navbar';
 import AboutMe from './components/aboutMe/aboutMe';
 import Contacts from './components/contacts/contacts';
@@ -24,6 +25,7 @@ root.render(
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='/homePage' element={<Home />} />
+        <Route path='/homePageLinks' element={<HomeLinks />} />
         <Route path='/aboutMe' element={<AboutMe />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>

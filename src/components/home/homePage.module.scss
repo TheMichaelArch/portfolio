@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   height: 450px;
-  background: #1abc9c;
+  background: #455888;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,15 +10,44 @@
   h1 {
     font-size: 52px;
     color: white;
-    text-shadow: 2px 2px #7860ff;
+    text-shadow: 2px 2px #493b99;
   }
 
   p {
     font-weight: 700;
     font-size: 25px;
-    color: rgb(206, 255, 255);
-    background: rgb(104, 0, 81);
+    color: rgb(255, 255, 255);
+    background: rgb(108, 1, 1);
     border-radius: 15px;
     padding: 10px;
+  }
+}
+
+.container2 {
+  position: fixed;
+  bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin: 10px;
+  
+
+  a {
+    color: white;
+    text-shadow: black 2px 2px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgray;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: black 5px 5px 10px;
+    padding: 5px;
+    
+  }
+  a:hover {
+    background-color: rgba(255, 234, 0, 0.76);
+    box-shadow: 5px 5px 15px rgba($color: #ffffff, $alpha: 0.6);
+    transform: translateY(2px);
   }
 }
