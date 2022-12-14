@@ -8,11 +8,11 @@ import HomeLinks from './components/home/homePageLinks'
 const App: React.FC = () => {
   return (
     <div>
-      <MyButton content='Nappi 1' onClick={() => console.log('Nappi 1')} />
-      <MyButton content='Nappi 2' onClick={() => console.log('Nappi 2')} />
+      {/* <MyButton content='Nappi 1' onClick={() => console.log('Nappi 1')} /> */}
+      {/* <MyButton content='Nappi 2' onClick={() => console.log('Nappi 2')} /> */}
       <HomePage />
       <HomeLinks />
-      <ClickCount />
+      {/* <ClickCount /> */}
     </div>
   )
 }
