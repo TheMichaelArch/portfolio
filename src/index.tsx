@@ -4,7 +4,7 @@ import App from './App';
 import './index.module.scss'
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
+  HashRouter as Router, // use HashRouter instead of BrowserRouter to solve url problem in github if not in Firebase
   Routes,
   Route,
 } from "react-router-dom";
@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <Navbar />
 
       <Routes>
@@ -29,7 +29,7 @@ root.render(
         <Route path='/aboutMe' element={<AboutMe />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );
 
