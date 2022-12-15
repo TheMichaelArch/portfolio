@@ -21,7 +21,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Navbar />
-      
+      <HomeLinks />
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='/homePage' element={<Home />} />
