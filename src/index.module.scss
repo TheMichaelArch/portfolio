@@ -7,6 +7,8 @@
 // }
 
 body {
+    display: flex;
+    justify-content: center;
     background-color: darkslategray;
     margin: 0;
     margin-top: 80px;
@@ -16,11 +18,12 @@ body {
     // background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ab/Iceberg_in_the_Arctic_with_its_underside_exposed%2C_brightened_underwater.jpg");
     background-image: url("graphics/iceberg.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    // background-size: auto 100vw;
+    background-size: 200vh;
     background-position-x: center;
     background-position-y: 60px;
-    margin-left: 0px;
-    margin-right: 0px;
+    // margin-left: 0px;
+    // margin-right: 0px;
 
 }
 
