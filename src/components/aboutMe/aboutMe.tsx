@@ -12,9 +12,9 @@ const AboutMe: React.FC<AboutMeProps> = () => {
       <div className={styles.container2}>
         <p>My name is Markus Mikael Maja</p>
       </div>
-      <p>I am an enthusiastic about coding, creating working software and games.
+      <p className={styles.paragraph}>I am an enthusiastic about coding, creating working software and games.
         I also quite often dive into studying why or how code works or how it is used in different applications.</p>
-      <p>Since world of coding is a never seizing in terms of development and innovation, I am always attempting to find and 
+      <p className={styles.paragraph}>Since world of coding is a never seizing in terms of development and innovation, I am always attempting to find and 
         learn new information about different codes. Including the pros and cons of the possible languages used.</p>
       <div className={styles.container2}>
         <p>
