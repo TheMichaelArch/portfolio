@@ -1,8 +1,8 @@
 // App.tsx
 import React from 'react'
 import HomePage from './components/home/homePage'
-import ClickCount from './components/clicker/clickCount';
-import MyButton from './components/MyButton';
+// import ClickCount from './components/clicker/clickCount';
+// import MyButton from './components/MyButton';
 import HomeLinks from './components/home/homePageLinks'
 
 const App: React.FC = () => {
