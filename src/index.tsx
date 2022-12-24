@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+// import App from './App';
 import './index.module.scss'
 import reportWebVitals from './reportWebVitals';
 import {
@@ -23,9 +23,10 @@ root.render(
       <Navbar />
       <HomeLinks />
       <Routes>
-        <Route path='/' element={<App />}></Route>
-        <Route path='/homePage' element={<Home />} />
-        <Route path='/homePageLinks' element={<HomeLinks />} />
+        {/* <Route path='/' element={<App />}></Route> */}
+        {/* <Route path='/homePageLinks' element={<HomeLinks />} /> */}
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/aboutMe' element={<AboutMe />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
